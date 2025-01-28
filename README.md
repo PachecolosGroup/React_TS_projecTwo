@@ -10,3 +10,6 @@ Still pending to do more changes with {
 And others more in the whole project, I promise to comeback and fix them once
 I got more understanding on TypeScript and React. 
 
+To see the whole project click here: 
+https://projectreactex1.netlify.app/ 
+
