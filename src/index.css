@@ -60,37 +60,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
-  --bs-black: #000;
-  --bs-white: #FFF;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-gray-100: #f8f9fa;
-  --bs-gray-200: #e9ecef;
-  --bs-gray-300: #dee2e6;
-  --bs-gray-400: #ced4da;
-  --bs-gray-500: #adb5bd;
-  --bs-gray-600: #6c757d;
-  --bs-gray-700: #495057;
-  --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
+
   --bs-primary: #e99401;
-  --bs-secondary: #6c757d;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #262626;
   --bs-primary-rgb: 233, 148, 1;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -114,18 +86,7 @@
   --bs-body-bg: #FFF;
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: #dee2e6;
-  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
-  --bs-border-radius: 0.375rem;
-  --bs-border-radius-sm: 0.25rem;
-  --bs-border-radius-lg: 0.5rem;
-  --bs-border-radius-xl: 1rem;
-  --bs-border-radius-2xl: 2rem;
-  --bs-border-radius-pill: 50rem;
-  --bs-link-color: #FFF;
-  --bs-link-hover-color: #FFF;
-  --bs-code-color: #d63384;
-  --bs-highlight-bg: #fff3cd;
+
 }
 
 *,
@@ -280,14 +241,6 @@ button:not(:disabled),
   height: auto;
 }
 
-/* rtl:raw:
-[type="tel"],
-[type="url"],
-[type="email"],
-[type="number"] {
-  direction: ltr;
-}
-*/
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -479,17 +432,7 @@ button:not(:disabled),
   --bs-btn-color: #FFF;
   --bs-btn-bg: #dc3545;
   --bs-btn-border-color: #dc3545;
-  --bs-btn-hover-color: #FFF;
-  --bs-btn-hover-bg: #bb2d3b;
-  --bs-btn-hover-border-color: #b02a37;
-  --bs-btn-focus-shadow-rgb: 225, 83, 97;
-  --bs-btn-active-color: #FFF;
-  --bs-btn-active-bg: #b02a37;
-  --bs-btn-active-border-color: #a52834;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #FFF;
-  --bs-btn-disabled-bg: #dc3545;
-  --bs-btn-disabled-border-color: #dc3545;
+
 }
 
 .btn-dark {
@@ -529,30 +472,6 @@ button:not(:disabled),
   }
 }
 
-/* rtl:begin:ignore */
-
-/* rtl:end:ignore */
-
-/* rtl:begin:ignore */
-
-/* rtl:end:ignore */
-
-/* rtl:begin:ignore */
-
-/* rtl:end:ignore */
-
-/* rtl:begin:ignore */
-
-/* rtl:end:ignore */
-
-/* rtl:options: {
-  "autoRename": true,
-  "stringMap":[ {
-    "name"    : "prev-next",
-    "search"  : "prev",
-    "replace" : "next"
-  } ]
-} */
 
 @keyframes spinner-border {
   to {
